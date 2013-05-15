@@ -1,0 +1,66 @@
+\hypertarget{protocol_r_p_ad_view_controller_delegate-p}{\section{$<$R\-P\-Ad\-View\-Controller\-Delegate$>$ Protocol Reference}
+\label{protocol_r_p_ad_view_controller_delegate-p}\index{$<$\-R\-P\-Ad\-View\-Controller\-Delegate$>$@{$<$\-R\-P\-Ad\-View\-Controller\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$R\-P\-Ad\-View\-Controller.\-h$>$}
+
+Inheritance diagram for $<$R\-P\-Ad\-View\-Controller\-Delegate$>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_r_p_ad_view_controller_delegate-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_r_p_ad_view_controller_delegate-p_a43b07adeca1121744c5484827cc21fe0}{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:}
+\item 
+(void) -\/ \hyperlink{protocol_r_p_ad_view_controller_delegate-p_ab90957392890bd23625d116bf75df024}{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:}
+\item 
+(void) -\/ \hyperlink{protocol_r_p_ad_view_controller_delegate-p_a23d62cc5e1011534263c78a6ad0bf93e}{ad\-View\-Controller\-Did\-Open\-Modal\-:}
+\item 
+\hypertarget{protocol_r_p_ad_view_controller_delegate-p_aa4621fdd81d2341e33ec1e5befa02d67}{(void) -\/ {\bfseries ad\-View\-Controller\-Did\-Close\-:}}\label{protocol_r_p_ad_view_controller_delegate-p_aa4621fdd81d2341e33ec1e5befa02d67}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Protocol to represent the delegate methods of the advertisment view controller 
+
+\subsection{Method Documentation}
+\hypertarget{protocol_r_p_ad_view_controller_delegate-p_ab90957392890bd23625d116bf75df024}{\index{R\-P\-Ad\-View\-Controller\-Delegate-\/p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}!ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:@{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:}}
+\index{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:@{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:}!RPAdViewControllerDelegate-p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}}
+\subsubsection[{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Error\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) ad\-View\-Controller\-: 
+\begin{DoxyParamCaption}
+\item[{({\bf R\-P\-Ad\-View\-Controller} $\ast$)}]{ad\-View\-Controller}
+\item[{didLoadAdWithError:(N\-S\-Error $\ast$)}]{error}
+\end{DoxyParamCaption}
+}}\label{protocol_r_p_ad_view_controller_delegate-p_ab90957392890bd23625d116bf75df024}
+Indicates that an error occurred while loading the ad \hypertarget{protocol_r_p_ad_view_controller_delegate-p_a43b07adeca1121744c5484827cc21fe0}{\index{R\-P\-Ad\-View\-Controller\-Delegate-\/p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}!ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:@{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:}}
+\index{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:@{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:}!RPAdViewControllerDelegate-p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}}
+\subsubsection[{ad\-View\-Controller\-:did\-Load\-Ad\-With\-Size\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) ad\-View\-Controller\-: 
+\begin{DoxyParamCaption}
+\item[{({\bf R\-P\-Ad\-View\-Controller} $\ast$)}]{ad\-View\-Controller}
+\item[{didLoadAdWithSize:(C\-G\-Size)}]{ad\-Size}
+\end{DoxyParamCaption}
+}}\label{protocol_r_p_ad_view_controller_delegate-p_a43b07adeca1121744c5484827cc21fe0}
+Indicates the end of the load 
+\begin{DoxyParams}{Parameters}
+{\em ad\-View\-Controller} & View controller that finish the load \\
+\hline
+{\em ad\-Size} & width and length of the frame loaded \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_r_p_ad_view_controller_delegate-p_a23d62cc5e1011534263c78a6ad0bf93e}{\index{R\-P\-Ad\-View\-Controller\-Delegate-\/p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}!ad\-View\-Controller\-Did\-Open\-Modal\-:@{ad\-View\-Controller\-Did\-Open\-Modal\-:}}
+\index{ad\-View\-Controller\-Did\-Open\-Modal\-:@{ad\-View\-Controller\-Did\-Open\-Modal\-:}!RPAdViewControllerDelegate-p@{R\-P\-Ad\-View\-Controller\-Delegate-\/p}}
+\subsubsection[{ad\-View\-Controller\-Did\-Open\-Modal\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) ad\-View\-Controller\-Did\-Open\-Modal\-: 
+\begin{DoxyParamCaption}
+\item[{({\bf R\-P\-Ad\-View\-Controller} $\ast$)}]{ad\-View\-Controller}
+\end{DoxyParamCaption}
+}}\label{protocol_r_p_ad_view_controller_delegate-p_a23d62cc5e1011534263c78a6ad0bf93e}
+Indicates the view controller opened modally 
+\begin{DoxyParams}{Parameters}
+{\em ad\-View\-Controller} & View controller that open modally \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,57 @@
+\hypertarget{interface_r_p_event_kit}{\section{R\-P\-Event\-Kit Class Reference}
+\label{interface_r_p_event_kit}\index{R\-P\-Event\-Kit@{R\-P\-Event\-Kit}}
+}
+
+
+{\ttfamily \#import $<$R\-P\-Event\-Kit.\-h$>$}
+
+Inheritance diagram for R\-P\-Event\-Kit\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_r_p_event_kit}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_r_p_event_kit_a1b0e9104c95e6ab17dfcd0921c21cbdc}{init\-With\-View\-Controller\-:}
+\item 
+(void) -\/ \hyperlink{interface_r_p_event_kit_a13d55be4ee4772081376e5e9232f2e1b}{add\-Event\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_r_p_event_kit_abeb5cf5feeff93d620e56e371cdec494}{id$<$ \hyperlink{protocol_r_p_event_kit_delegate-p}{R\-P\-Event\-Kit\-Delegate} $>$ {\bfseries delegate}}\label{interface_r_p_event_kit_abeb5cf5feeff93d620e56e371cdec494}
+
+\item 
+\hypertarget{interface_r_p_event_kit_a8a654ba07676e7973a3d97bebe3ef36c}{N\-S\-String $\ast$ {\bfseries current\-Id}}\label{interface_r_p_event_kit_a8a654ba07676e7973a3d97bebe3ef36c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to open the default calendar to add events 
+
+\subsection{Method Documentation}
+\hypertarget{interface_r_p_event_kit_a13d55be4ee4772081376e5e9232f2e1b}{\index{R\-P\-Event\-Kit@{R\-P\-Event\-Kit}!add\-Event\-:@{add\-Event\-:}}
+\index{add\-Event\-:@{add\-Event\-:}!RPEventKit@{R\-P\-Event\-Kit}}
+\subsubsection[{add\-Event\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) add\-Event\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Dictionary $\ast$)}]{event\-Dictionary}
+\end{DoxyParamCaption}
+}}\label{interface_r_p_event_kit_a13d55be4ee4772081376e5e9232f2e1b}
+Opens a popup allowing the user to add events to the calendar, using the dictionary to prepopulate the event \hypertarget{interface_r_p_event_kit_a1b0e9104c95e6ab17dfcd0921c21cbdc}{\index{R\-P\-Event\-Kit@{R\-P\-Event\-Kit}!init\-With\-View\-Controller\-:@{init\-With\-View\-Controller\-:}}
+\index{init\-With\-View\-Controller\-:@{init\-With\-View\-Controller\-:}!RPEventKit@{R\-P\-Event\-Kit}}
+\subsubsection[{init\-With\-View\-Controller\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-View\-Controller\-: 
+\begin{DoxyParamCaption}
+\item[{(U\-I\-View\-Controller $\ast$)}]{view\-Controller}
+\end{DoxyParamCaption}
+}}\label{interface_r_p_event_kit_a1b0e9104c95e6ab17dfcd0921c21cbdc}
+Inits the class with a view controller 
+\begin{DoxyParams}{Parameters}
+{\em view\-Controller} & View controller where to present the i\-O\-S event view controller \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The newly initialized event kit 
+\end{DoxyReturn}

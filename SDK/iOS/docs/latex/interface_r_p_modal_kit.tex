@@ -1,0 +1,62 @@
+\hypertarget{interface_r_p_modal_kit}{\section{R\-P\-Modal\-Kit Class Reference}
+\label{interface_r_p_modal_kit}\index{R\-P\-Modal\-Kit@{R\-P\-Modal\-Kit}}
+}
+
+
+{\ttfamily \#import $<$R\-P\-Modal\-Kit.\-h$>$}
+
+Inheritance diagram for R\-P\-Modal\-Kit\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_r_p_modal_kit}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_r_p_modal_kit_accb92d55ac9a495dab8d468f820fc64c}{init\-With\-View\-Controller\-:}
+\item 
+(void) -\/ \hyperlink{interface_r_p_modal_kit_a89d1f7bf0a9dd1f63d60fbced28e7622}{show\-Video\-Player\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_r_p_modal_kit_a212ddbcad1a715f3d46aae35a0966a26}{id$<$ \hyperlink{protocol_r_p_modal_kit_delegate-p}{R\-P\-Modal\-Kit\-Delegate} $>$ {\bfseries delegate}}\label{interface_r_p_modal_kit_a212ddbcad1a715f3d46aae35a0966a26}
+
+\item 
+\hypertarget{interface_r_p_modal_kit_adc8ab801563dbc84b3ba97e61e60b0b2}{N\-S\-String $\ast$ {\bfseries current\-Id}}\label{interface_r_p_modal_kit_adc8ab801563dbc84b3ba97e61e60b0b2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to show a video in modal mode 
+
+\subsection{Method Documentation}
+\hypertarget{interface_r_p_modal_kit_accb92d55ac9a495dab8d468f820fc64c}{\index{R\-P\-Modal\-Kit@{R\-P\-Modal\-Kit}!init\-With\-View\-Controller\-:@{init\-With\-View\-Controller\-:}}
+\index{init\-With\-View\-Controller\-:@{init\-With\-View\-Controller\-:}!RPModalKit@{R\-P\-Modal\-Kit}}
+\subsubsection[{init\-With\-View\-Controller\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-View\-Controller\-: 
+\begin{DoxyParamCaption}
+\item[{(U\-I\-View\-Controller $\ast$)}]{view\-Controller}
+\end{DoxyParamCaption}
+}}\label{interface_r_p_modal_kit_accb92d55ac9a495dab8d468f820fc64c}
+Inits the class with a view controller 
+\begin{DoxyParams}{Parameters}
+{\em view\-Controller} & View controller where to present the i\-O\-S video view controller \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The newly initialized modal kit 
+\end{DoxyReturn}
+\hypertarget{interface_r_p_modal_kit_a89d1f7bf0a9dd1f63d60fbced28e7622}{\index{R\-P\-Modal\-Kit@{R\-P\-Modal\-Kit}!show\-Video\-Player\-:@{show\-Video\-Player\-:}}
+\index{show\-Video\-Player\-:@{show\-Video\-Player\-:}!RPModalKit@{R\-P\-Modal\-Kit}}
+\subsubsection[{show\-Video\-Player\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) show\-Video\-Player\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Dictionary $\ast$)}]{url\-Dictionary}
+\end{DoxyParamCaption}
+}}\label{interface_r_p_modal_kit_a89d1f7bf0a9dd1f63d60fbced28e7622}
+Shows the video player and plays the specified U\-R\-L 
+\begin{DoxyParams}{Parameters}
+{\em video\-Url} & U\-R\-L with the video to play \\
+\hline
+\end{DoxyParams}

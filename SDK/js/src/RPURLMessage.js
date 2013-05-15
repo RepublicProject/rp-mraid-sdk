@@ -1,0 +1,3 @@
+function RPURLMessage(){
+    this.url;
+}

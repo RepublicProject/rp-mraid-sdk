@@ -1,0 +1,27 @@
+var annotated =
+[
+    [ "RPAdView", "interface_r_p_ad_view.html", "interface_r_p_ad_view" ],
+    [ "RPAdView()", "category_r_p_ad_view_07_08.html", "category_r_p_ad_view_07_08" ],
+    [ "RPAdViewController", "interface_r_p_ad_view_controller.html", "interface_r_p_ad_view_controller" ],
+    [ "RPAdViewController()", "category_r_p_ad_view_controller_07_08.html", "category_r_p_ad_view_controller_07_08" ],
+    [ "<RPAdViewControllerDelegate>", "protocol_r_p_ad_view_controller_delegate-p.html", "protocol_r_p_ad_view_controller_delegate-p" ],
+    [ "<RPAdViewDelegate>", "protocol_r_p_ad_view_delegate-p.html", "protocol_r_p_ad_view_delegate-p" ],
+    [ "RPEventKit", "interface_r_p_event_kit.html", "interface_r_p_event_kit" ],
+    [ "RPEventKit()", "category_r_p_event_kit_07_08.html", "category_r_p_event_kit_07_08" ],
+    [ "<RPEventKitDelegate>", "protocol_r_p_event_kit_delegate-p.html", "protocol_r_p_event_kit_delegate-p" ],
+    [ "RPFacebookDialogViewController", "interface_r_p_facebook_dialog_view_controller.html", "interface_r_p_facebook_dialog_view_controller" ],
+    [ "<RPFacebookDialogViewControllerDelegate>", "protocol_r_p_facebook_dialog_view_controller_delegate-p.html", "protocol_r_p_facebook_dialog_view_controller_delegate-p" ],
+    [ "RPModalKit", "interface_r_p_modal_kit.html", "interface_r_p_modal_kit" ],
+    [ "RPModalKit()", "category_r_p_modal_kit_07_08.html", "category_r_p_modal_kit_07_08" ],
+    [ "<RPModalKitDelegate>", "protocol_r_p_modal_kit_delegate-p.html", "protocol_r_p_modal_kit_delegate-p" ],
+    [ "RPOrientationProperties", "interface_r_p_orientation_properties.html", "interface_r_p_orientation_properties" ],
+    [ "RPShareableMessage", "interface_r_p_shareable_message.html", "interface_r_p_shareable_message" ],
+    [ "RPShareKit", "interface_r_p_share_kit.html", "interface_r_p_share_kit" ],
+    [ "<RPShareKitDelegate>", "protocol_r_p_share_kit_delegate-p.html", "protocol_r_p_share_kit_delegate-p" ],
+    [ "RPURLKit", "interface_r_p_u_r_l_kit.html", "interface_r_p_u_r_l_kit" ],
+    [ "<RPURLKitDelegate>", "protocol_r_p_u_r_l_kit_delegate-p.html", "protocol_r_p_u_r_l_kit_delegate-p" ],
+    [ "RPURLViewController", "interface_r_p_u_r_l_view_controller.html", "interface_r_p_u_r_l_view_controller" ],
+    [ "RPURLViewController()", "category_r_p_u_r_l_view_controller_07_08.html", "category_r_p_u_r_l_view_controller_07_08" ],
+    [ "<RPURLViewControllerDelegate>", "protocol_r_p_u_r_l_view_controller_delegate-p.html", "protocol_r_p_u_r_l_view_controller_delegate-p" ],
+    [ "RPWebViewDelegate", "interface_r_p_web_view_delegate.html", "interface_r_p_web_view_delegate" ]
+];

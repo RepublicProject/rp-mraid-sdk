@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E34751C91663DE29003FBB29 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E34751CA1663DE29003FBB29 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				E34751CF1663DE73003FBB29 /* Build Framework */,
+			);
+			dependencies = (
+				E34751CE1663DE66003FBB29 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		645F8BDD16EE7B1100B8CC41 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 645F8BD416EE7AC500B8CC41 /* back.png */; };
+		645F8BDE16EE7B1100B8CC41 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 645F8BD516EE7AC500B8CC41 /* back@2x.png */; };
+		645F8BDF16EE7B1100B8CC41 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 645F8BD616EE7AC500B8CC41 /* forward.png */; };
+		645F8BE016EE7B1100B8CC41 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 645F8BD716EE7AC500B8CC41 /* forward@2x.png */; };
+		64C565151701047A00E0AE0E /* RPOrientationProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C565131701047A00E0AE0E /* RPOrientationProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C565161701047A00E0AE0E /* RPOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C565141701047A00E0AE0E /* RPOrientationProperties.m */; };
+		64C71DF91716FEBB003D7760 /* RPAdView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751B41663DC8D003FBB29 /* RPAdView.h */; };
+		64C71DFA1716FEBB003D7760 /* RPAdViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751B61663DC8D003FBB29 /* RPAdViewController.h */; };
+		64C71DFB1716FEBB003D7760 /* RPEventKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751B81663DC8D003FBB29 /* RPEventKit.h */; };
+		64C71DFC1716FEBB003D7760 /* RPModalKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751BA1663DC8D003FBB29 /* RPModalKit.h */; };
+		64C71DFD1716FEBB003D7760 /* RPURLKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751BC1663DC8D003FBB29 /* RPURLKit.h */; };
+		64C71DFE1716FEBB003D7760 /* RPFacebookDialogViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E35B3ECC166FA8A8007B93E6 /* RPFacebookDialogViewController.h */; };
+		64C71DFF1716FEBB003D7760 /* RPShareableMessage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E35B3EC6166FA82E007B93E6 /* RPShareableMessage.h */; };
+		64C71E001716FEBB003D7760 /* RPShareKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E35B3EC1166FA806007B93E6 /* RPShareKit.h */; };
+		64C71E011716FEBB003D7760 /* RPURLViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751BE1663DC8D003FBB29 /* RPURLViewController.h */; };
+		64C71E021716FEBB003D7760 /* RPWebViewDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E34751C01663DC8D003FBB29 /* RPWebViewDelegate.h */; };
+		64C71E031716FF13003D7760 /* RPOrientationProperties.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C565131701047A00E0AE0E /* RPOrientationProperties.h */; };
+		E347517C16639F3C003FBB29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E347517B16639F3C003FBB29 /* Foundation.framework */; };
+		E347518116639F3C003FBB29 /* Republic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E347518016639F3C003FBB29 /* Republic.h */; };
+		E34751C21663DC8D003FBB29 /* RPAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751B51663DC8D003FBB29 /* RPAdView.m */; };
+		E34751C31663DC8D003FBB29 /* RPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751B71663DC8D003FBB29 /* RPAdViewController.m */; };
+		E34751C41663DC8D003FBB29 /* RPEventKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751B91663DC8D003FBB29 /* RPEventKit.m */; };
+		E34751C51663DC8D003FBB29 /* RPModalKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751BB1663DC8D003FBB29 /* RPModalKit.m */; };
+		E34751C61663DC8D003FBB29 /* RPURLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751BD1663DC8D003FBB29 /* RPURLKit.m */; };
+		E34751C71663DC8D003FBB29 /* RPURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751BF1663DC8D003FBB29 /* RPURLViewController.m */; };
+		E34751C81663DC8D003FBB29 /* RPWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E34751C11663DC8D003FBB29 /* RPWebViewDelegate.m */; };
+		E34751D71663F8C1003FBB29 /* RPAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751B41663DC8D003FBB29 /* RPAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751D81663F8DA003FBB29 /* RPAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751B61663DC8D003FBB29 /* RPAdViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751D91663F8E1003FBB29 /* RPEventKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751B81663DC8D003FBB29 /* RPEventKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751DA1663F8E4003FBB29 /* RPModalKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751BA1663DC8D003FBB29 /* RPModalKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751DB1663F8E8003FBB29 /* RPURLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751BC1663DC8D003FBB29 /* RPURLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751DC1663F8EB003FBB29 /* RPURLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751BE1663DC8D003FBB29 /* RPURLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34751DD1663F8EF003FBB29 /* RPWebViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E34751C01663DC8D003FBB29 /* RPWebViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35B3EC3166FA807007B93E6 /* RPShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E35B3EC1166FA806007B93E6 /* RPShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35B3EC4166FA807007B93E6 /* RPShareKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E35B3EC2166FA807007B93E6 /* RPShareKit.m */; };
+		E35B3EC8166FA82E007B93E6 /* RPShareableMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E35B3EC6166FA82E007B93E6 /* RPShareableMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35B3EC9166FA82E007B93E6 /* RPShareableMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E35B3EC7166FA82E007B93E6 /* RPShareableMessage.m */; };
+		E35B3ECE166FA8A8007B93E6 /* RPFacebookDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E35B3ECC166FA8A8007B93E6 /* RPFacebookDialogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35B3ECF166FA8A8007B93E6 /* RPFacebookDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35B3ECD166FA8A8007B93E6 /* RPFacebookDialogViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E34751CD1663DE66003FBB29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E347516F16639F3C003FBB29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E347517716639F3C003FBB29;
+			remoteInfo = Republic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E347517616639F3C003FBB29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				64C71E031716FF13003D7760 /* RPOrientationProperties.h in CopyFiles */,
+				64C71DF91716FEBB003D7760 /* RPAdView.h in CopyFiles */,
+				64C71DFA1716FEBB003D7760 /* RPAdViewController.h in CopyFiles */,
+				64C71DFB1716FEBB003D7760 /* RPEventKit.h in CopyFiles */,
+				64C71DFC1716FEBB003D7760 /* RPModalKit.h in CopyFiles */,
+				64C71DFD1716FEBB003D7760 /* RPURLKit.h in CopyFiles */,
+				64C71DFE1716FEBB003D7760 /* RPFacebookDialogViewController.h in CopyFiles */,
+				64C71DFF1716FEBB003D7760 /* RPShareableMessage.h in CopyFiles */,
+				64C71E001716FEBB003D7760 /* RPShareKit.h in CopyFiles */,
+				64C71E011716FEBB003D7760 /* RPURLViewController.h in CopyFiles */,
+				64C71E021716FEBB003D7760 /* RPWebViewDelegate.h in CopyFiles */,
+				E347518116639F3C003FBB29 /* Republic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		645F8BD416EE7AC500B8CC41 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = assets/back.png; sourceTree = "<group>"; };
+		645F8BD516EE7AC500B8CC41 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "assets/back@2x.png"; sourceTree = "<group>"; };
+		645F8BD616EE7AC500B8CC41 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = assets/forward.png; sourceTree = "<group>"; };
+		645F8BD716EE7AC500B8CC41 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forward@2x.png"; path = "assets/forward@2x.png"; sourceTree = "<group>"; };
+		64C565131701047A00E0AE0E /* RPOrientationProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPOrientationProperties.h; sourceTree = "<group>"; };
+		64C565141701047A00E0AE0E /* RPOrientationProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPOrientationProperties.m; sourceTree = "<group>"; };
+		64C71DF71716FE28003D7760 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = mraid.js; path = assets/mraid.js; sourceTree = "<group>"; };
+		E347517816639F3C003FBB29 /* libRepublic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRepublic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E347517B16639F3C003FBB29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E347517F16639F3C003FBB29 /* Republic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Republic-Prefix.pch"; sourceTree = "<group>"; };
+		E347518016639F3C003FBB29 /* Republic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Republic.h; sourceTree = "<group>"; };
+		E34751B41663DC8D003FBB29 /* RPAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPAdView.h; sourceTree = "<group>"; };
+		E34751B51663DC8D003FBB29 /* RPAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPAdView.m; sourceTree = "<group>"; };
+		E34751B61663DC8D003FBB29 /* RPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPAdViewController.h; sourceTree = "<group>"; };
+		E34751B71663DC8D003FBB29 /* RPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPAdViewController.m; sourceTree = "<group>"; };
+		E34751B81663DC8D003FBB29 /* RPEventKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPEventKit.h; sourceTree = "<group>"; };
+		E34751B91663DC8D003FBB29 /* RPEventKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPEventKit.m; sourceTree = "<group>"; };
+		E34751BA1663DC8D003FBB29 /* RPModalKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPModalKit.h; sourceTree = "<group>"; };
+		E34751BB1663DC8D003FBB29 /* RPModalKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPModalKit.m; sourceTree = "<group>"; };
+		E34751BC1663DC8D003FBB29 /* RPURLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPURLKit.h; sourceTree = "<group>"; };
+		E34751BD1663DC8D003FBB29 /* RPURLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPURLKit.m; sourceTree = "<group>"; };
+		E34751BE1663DC8D003FBB29 /* RPURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPURLViewController.h; sourceTree = "<group>"; };
+		E34751BF1663DC8D003FBB29 /* RPURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPURLViewController.m; sourceTree = "<group>"; };
+		E34751C01663DC8D003FBB29 /* RPWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPWebViewDelegate.h; sourceTree = "<group>"; };
+		E34751C11663DC8D003FBB29 /* RPWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPWebViewDelegate.m; sourceTree = "<group>"; };
+		E35B3EC1166FA806007B93E6 /* RPShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPShareKit.h; sourceTree = "<group>"; };
+		E35B3EC2166FA807007B93E6 /* RPShareKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPShareKit.m; sourceTree = "<group>"; };
+		E35B3EC6166FA82E007B93E6 /* RPShareableMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPShareableMessage.h; sourceTree = "<group>"; };
+		E35B3EC7166FA82E007B93E6 /* RPShareableMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPShareableMessage.m; sourceTree = "<group>"; };
+		E35B3ECC166FA8A8007B93E6 /* RPFacebookDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFacebookDialogViewController.h; sourceTree = "<group>"; };
+		E35B3ECD166FA8A8007B93E6 /* RPFacebookDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFacebookDialogViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E347517516639F3C003FBB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E347517C16639F3C003FBB29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641C34BB16EE5D1B00600285 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				64C71DF71716FE28003D7760 /* mraid.js */,
+				645F8BD416EE7AC500B8CC41 /* back.png */,
+				645F8BD516EE7AC500B8CC41 /* back@2x.png */,
+				645F8BD616EE7AC500B8CC41 /* forward.png */,
+				645F8BD716EE7AC500B8CC41 /* forward@2x.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		E347516D16639F3C003FBB29 = {
+			isa = PBXGroup;
+			children = (
+				E347517D16639F3C003FBB29 /* Republic */,
+				E347517A16639F3C003FBB29 /* Frameworks */,
+				E347517916639F3C003FBB29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E347517916639F3C003FBB29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E347517816639F3C003FBB29 /* libRepublic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E347517A16639F3C003FBB29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E347517B16639F3C003FBB29 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E347517D16639F3C003FBB29 /* Republic */ = {
+			isa = PBXGroup;
+			children = (
+				E347518016639F3C003FBB29 /* Republic.h */,
+				E34751B41663DC8D003FBB29 /* RPAdView.h */,
+				E34751B51663DC8D003FBB29 /* RPAdView.m */,
+				E34751B61663DC8D003FBB29 /* RPAdViewController.h */,
+				E34751B71663DC8D003FBB29 /* RPAdViewController.m */,
+				E34751B81663DC8D003FBB29 /* RPEventKit.h */,
+				E34751B91663DC8D003FBB29 /* RPEventKit.m */,
+				E34751BA1663DC8D003FBB29 /* RPModalKit.h */,
+				E34751BB1663DC8D003FBB29 /* RPModalKit.m */,
+				E34751BC1663DC8D003FBB29 /* RPURLKit.h */,
+				E34751BD1663DC8D003FBB29 /* RPURLKit.m */,
+				E35B3ECC166FA8A8007B93E6 /* RPFacebookDialogViewController.h */,
+				E35B3ECD166FA8A8007B93E6 /* RPFacebookDialogViewController.m */,
+				E35B3EC6166FA82E007B93E6 /* RPShareableMessage.h */,
+				E35B3EC7166FA82E007B93E6 /* RPShareableMessage.m */,
+				E35B3EC1166FA806007B93E6 /* RPShareKit.h */,
+				E35B3EC2166FA807007B93E6 /* RPShareKit.m */,
+				E34751BE1663DC8D003FBB29 /* RPURLViewController.h */,
+				E34751BF1663DC8D003FBB29 /* RPURLViewController.m */,
+				E34751C01663DC8D003FBB29 /* RPWebViewDelegate.h */,
+				E34751C11663DC8D003FBB29 /* RPWebViewDelegate.m */,
+				E347517E16639F3C003FBB29 /* Supporting Files */,
+				64C565131701047A00E0AE0E /* RPOrientationProperties.h */,
+				64C565141701047A00E0AE0E /* RPOrientationProperties.m */,
+			);
+			path = Republic;
+			sourceTree = "<group>";
+		};
+		E347517E16639F3C003FBB29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				641C34BB16EE5D1B00600285 /* assets */,
+				E347517F16639F3C003FBB29 /* Republic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E34751D61663F8B1003FBB29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34751D71663F8C1003FBB29 /* RPAdView.h in Headers */,
+				E34751DD1663F8EF003FBB29 /* RPWebViewDelegate.h in Headers */,
+				E34751DC1663F8EB003FBB29 /* RPURLViewController.h in Headers */,
+				E34751DB1663F8E8003FBB29 /* RPURLKit.h in Headers */,
+				E34751DA1663F8E4003FBB29 /* RPModalKit.h in Headers */,
+				E34751D91663F8E1003FBB29 /* RPEventKit.h in Headers */,
+				64C565151701047A00E0AE0E /* RPOrientationProperties.h in Headers */,
+				E34751D81663F8DA003FBB29 /* RPAdViewController.h in Headers */,
+				E35B3EC3166FA807007B93E6 /* RPShareKit.h in Headers */,
+				E35B3EC8166FA82E007B93E6 /* RPShareableMessage.h in Headers */,
+				E35B3ECE166FA8A8007B93E6 /* RPFacebookDialogViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E347517716639F3C003FBB29 /* Republic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E347518616639F3C003FBB29 /* Build configuration list for PBXNativeTarget "Republic" */;
+			buildPhases = (
+				E347517416639F3C003FBB29 /* Sources */,
+				E347517516639F3C003FBB29 /* Frameworks */,
+				E347517616639F3C003FBB29 /* CopyFiles */,
+				645F8BDC16EE7B0000B8CC41 /* Resources */,
+				E34751B31663DB96003FBB29 /* Prepare Framework */,
+				E34751D61663F8B1003FBB29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Republic;
+			productName = Republic;
+			productReference = E347517816639F3C003FBB29 /* libRepublic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E347516F16639F3C003FBB29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Republic Project";
+			};
+			buildConfigurationList = E347517216639F3C003FBB29 /* Build configuration list for PBXProject "Republic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E347516D16639F3C003FBB29;
+			productRefGroup = E347517916639F3C003FBB29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E347517716639F3C003FBB29 /* Republic */,
+				E34751C91663DE29003FBB29 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645F8BDC16EE7B0000B8CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645F8BDD16EE7B1100B8CC41 /* back.png in Resources */,
+				645F8BDE16EE7B1100B8CC41 /* back@2x.png in Resources */,
+				645F8BDF16EE7B1100B8CC41 /* forward.png in Resources */,
+				645F8BE016EE7B1100B8CC41 /* forward@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E34751B31663DB96003FBB29 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+		E34751CF1663DE73003FBB29 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n\n# Build the other platform.\n\n#for arch in $ARCHS\n#do\nif [[ \"$SF_OTHER_PLATFORM\" = \"iphoneos\" ]]\nthen\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -arch armv7 -arch armv7s -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\nelse\n\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\nfi\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n#done\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E347517416639F3C003FBB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34751C21663DC8D003FBB29 /* RPAdView.m in Sources */,
+				E34751C31663DC8D003FBB29 /* RPAdViewController.m in Sources */,
+				E34751C41663DC8D003FBB29 /* RPEventKit.m in Sources */,
+				E34751C51663DC8D003FBB29 /* RPModalKit.m in Sources */,
+				E34751C61663DC8D003FBB29 /* RPURLKit.m in Sources */,
+				E34751C71663DC8D003FBB29 /* RPURLViewController.m in Sources */,
+				E34751C81663DC8D003FBB29 /* RPWebViewDelegate.m in Sources */,
+				E35B3EC4166FA807007B93E6 /* RPShareKit.m in Sources */,
+				E35B3EC9166FA82E007B93E6 /* RPShareableMessage.m in Sources */,
+				E35B3ECF166FA8A8007B93E6 /* RPFacebookDialogViewController.m in Sources */,
+				64C565161701047A00E0AE0E /* RPOrientationProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E34751CE1663DE66003FBB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E347517716639F3C003FBB29 /* Republic */;
+			targetProxy = E34751CD1663DE66003FBB29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E313153C1665245300C79A5F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		E313153D1665245300C79A5F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Republic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Republic/Republic-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+		E313153E1665245300C79A5F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Distribution;
+		};
+		E347518416639F3C003FBB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E347518516639F3C003FBB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E347518716639F3C003FBB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Republic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Republic/Republic-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E347518816639F3C003FBB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Republic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Republic/Republic-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E34751CB1663DE29003FBB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		E34751CC1663DE29003FBB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E347517216639F3C003FBB29 /* Build configuration list for PBXProject "Republic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E347518416639F3C003FBB29 /* Debug */,
+				E347518516639F3C003FBB29 /* Release */,
+				E313153C1665245300C79A5F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E347518616639F3C003FBB29 /* Build configuration list for PBXNativeTarget "Republic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E347518716639F3C003FBB29 /* Debug */,
+				E347518816639F3C003FBB29 /* Release */,
+				E313153D1665245300C79A5F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34751CA1663DE29003FBB29 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34751CB1663DE29003FBB29 /* Debug */,
+				E34751CC1663DE29003FBB29 /* Release */,
+				E313153E1665245300C79A5F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E347516F16639F3C003FBB29 /* Project object */;
+}

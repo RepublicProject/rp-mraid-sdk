@@ -1,0 +1,38 @@
+require "rubygems"
+require "closure-compiler"
+
+FILES = ["RP.js", "RPCalendarEvent.js", "RPCalendarEventKit.js", "NativeBridge.js", "RPModalKit.js", "RPShareKit.js", "RPShareableMessage.js", "RPURLMessage.js"]
+
+task :default => :build
+
+desc "Concat all files into Republic-all.js"
+task :concat do
+  File.open( "Republic-all.js", "w" ) do |republic|
+    FILES.each do |file|
+      File.open("src/#{file}") do |src|
+        src.each {|line| republic.puts(line) }
+      end
+    end
+    
+    File.open("src/mraid.js") do |src|
+      src.each {|line| republic.puts(line) }
+    end 
+  end
+end
+
+desc "Use Closure Compiler JS to compress into mraid.js"
+task :compile => :concat do
+  ugly = Closure::Compiler.new.compile_files("Republic-all.js")
+  File.open("mraid.js", 'w') do |min|  
+    min << ugly
+  end
+end
+
+desc "Use yuidoc to generate documentation"
+task :doc do
+  sh "yuidoc -o docs src"
+end
+
+task :build => :compile do
+  FileUtils.cp "mraid.js", "../iOS/SDK/Republic/assets/"
+end
